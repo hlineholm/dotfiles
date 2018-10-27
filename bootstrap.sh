@@ -6,9 +6,24 @@ git pull origin master;
 
 function doIt() {
 	rsync --exclude ".git/" \
+  	--exclude ".vim" \
+		--exclude "bin/**" \
+		--exclude "init/**" \
+		--exclude ".curlrc" \
 		--exclude ".DS_Store" \
+		--exclude ".curlrc" \
+		--exclude ".editorconfig" \
+		--exclude ".gdbinit" \
+		--exclude ".gvimrc" \
+		--exclude ".hgignore" \
+		--exclude ".gvimrc" \
+		--exclude ".macos" \
 		--exclude ".osx" \
+		--exclude ".tmux.conf" \
+		--exclude ".vimrc" \
+		--exclude ".wgetrc" \
 		--exclude "bootstrap.sh" \
+		--exclude "brew.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
