@@ -15,6 +15,7 @@ alias dt="cd ~/Desktop"
 # alias p="cd ~/projects"
 alias g="git"
 alias rp="cd ~/Repositories"
+alias df="cd ~/Repositories/hlineholm/dotfiles && atom ."
 alias pg="cd ~/Repositories/hlineholm/playgrounds/Swift && atom . && open Playgrounds.xcworkspace"
 
 # Detect which `ls` flavor is in use
