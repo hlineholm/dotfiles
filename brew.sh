@@ -23,7 +23,7 @@ BREW_PREFIX=$(brew --prefix)
 # Install GNU `sed`, overwriting the built-in `sed`.
 # brew install gnu-sed --with-default-names
 # Install Bash 4.
-# brew install bash
+brew install bash
 brew install bash-completion2
 
 # Switch to using brew-installed bash as default shell
