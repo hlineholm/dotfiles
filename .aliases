@@ -9,13 +9,15 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-# alias d="cd ~/Documents/Dropbox"
+alias al="cd ~/Repositories/hlineholm/dotfiles && code .aliases && code .gitconfig && code .functions"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-# alias p="cd ~/projects"
 alias g="git"
 alias rp="cd ~/Repositories"
+alias rph="cd ~/Repositories/hlineholm"
+alias rpf="cd ~/Repositories/flir"
 alias df="cd ~/Repositories/hlineholm/dotfiles && code ."
+alias se="cd ~/Repositories/hlineholm/settings && code ."
 alias pg="cd ~/Repositories/hlineholm/playgrounds/Swift && code . && open Playgrounds.xcworkspace"
 
 # Detect which `ls` flavor is in use
