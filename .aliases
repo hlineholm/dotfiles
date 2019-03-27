@@ -19,8 +19,10 @@ alias rphd="cd ~/Repositories/hlineholm/dotfiles && code ."
 alias rphs="cd ~/Repositories/hlineholm/settings && code ."
 alias rphp="cd ~/Repositories/hlineholm/playgrounds/Swift && code . && open Playgrounds.xcworkspace"
 alias rpf="cd ~/Repositories/flir"
-alias rpf1="cd ~/Repositories/flir/mantis-app-ios && code . && open FLIR\ One.xcodeproj"
-alias rpft="cd ~/Repositories/flir/tools-ios/MobileDevice/iOS/Tools/main && code . && open Tools.xcworkspace"
+alias rpfa="cd ~/Repositories/flir/as"
+alias rpfg="cd ~/Repositories/flir-github"
+alias rpfone="cd ~/Repositories/flir/mantis-app-ios && code . && open FLIR\ One.xcodeproj"
+alias rpftools="cd ~/Repositories/flir/tools-ios/MobileDevice/iOS/Tools/main && code . && open Tools.xcworkspace"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
