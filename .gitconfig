@@ -33,6 +33,7 @@
 
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
+    tagh = tag --points-at HEAD
 	branches = branch -a
 	remotes = remote -v
 
