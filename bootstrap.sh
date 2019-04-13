@@ -23,6 +23,7 @@ function doIt() {
 		--exclude ".vimrc" \
 		--exclude ".wgetrc" \
 		--exclude "bootstrap.sh" \
+        --exclude "bootstrap-flir.sh" \
 		--exclude "brew.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
