@@ -25,6 +25,7 @@ alias rpfg="cd ~/Repositories/flir-github"
 alias rpfone="cd ~/Repositories/flir/mantis-app-ios"
 alias rpftools="cd ~/Repositories/flir/tools-ios/MobileDevice/iOS/Tools/main"
 
+alias bh="code ~/.bash_history"
 alias cw="code . && find * -type d -name '*.xcworkspace' -maxdepth 0 -exec open {} \;"
 
 # Detect which `ls` flavor is in use
