@@ -27,6 +27,8 @@ alias rpftools="cd ~/Repositories/flir/tools-ios/MobileDevice/iOS/Tools/main"
 
 alias bh="code ~/.bash_history"
 alias cw="code . && find * -type d -name '*.xcworkspace' -maxdepth 0 -exec open {} \;"
+alias occ="open ~/Library/Caches/org.carthage.CarthageKit"
+alias rmcc="rm -rf ~/Library/Caches/org.carthage.CarthageKit; rm -rf ~/Library/Caches/carthage"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
