@@ -32,6 +32,7 @@
 	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
 
     rh = reset --hard
+    rhc = !"git reset --hard; git clean -df"
 
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
