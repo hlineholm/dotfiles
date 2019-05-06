@@ -26,6 +26,7 @@ alias rpfone="cd ~/Repositories/flir/mantis-app-ios"
 alias rpftools="cd ~/Repositories/flir/tools-ios/MobileDevice/iOS/Tools/main"
 
 alias bh="code ~/.bash_history"
+alias cbh="cat /dev/null > ~/.bash_history && history -c && exit"
 alias cw="code . && find * -type d -name '*.xcworkspace' -maxdepth 0 -exec open {} \;"
 alias occ="open ~/Library/Caches/org.carthage.CarthageKit"
 alias rmcc="rm -rf ~/Library/Caches/org.carthage.CarthageKit; rm -rf ~/Library/Caches/carthage"
