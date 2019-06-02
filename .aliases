@@ -23,6 +23,7 @@ alias rpf="cd ~/Repositories/flir"
 alias rpfa="cd ~/Repositories/flir/as"
 alias rpfg="cd ~/Repositories/flir-github"
 alias rpfone="cd ~/Repositories/flir/mantis-app-ios"
+alias rpfpilot="cd ~/Repositories/flir/as/pilot-ios"
 alias rpftools="cd ~/Repositories/flir/tools-ios/MobileDevice/iOS/Tools/main"
 
 alias bh="code ~/.bash_history"
