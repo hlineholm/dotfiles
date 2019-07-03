@@ -34,6 +34,7 @@
 
     rh = reset --hard
     rhc = !"git reset --hard; git clean -df"
+    srhc = !"git submodule foreach 'git reset --hard; git clean -df'"
 
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
