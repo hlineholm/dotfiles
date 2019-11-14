@@ -77,6 +77,9 @@
 	# a.k.a. ‘delete merged’
 	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
+    # Copy name of branch to clipboard
+    # cb = "!git branch | grep '^\*' | cut -d' ' -f2 | pbcopy"
+
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
 
