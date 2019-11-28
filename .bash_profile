@@ -47,3 +47,7 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# Select JAVA version
+# /usr/libexec/java_home -V
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
