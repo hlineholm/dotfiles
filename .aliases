@@ -26,8 +26,10 @@ alias cbh="cat /dev/null > ~/.bash_history && history -c && exit"
 alias cw="code . && find * -type d -name '*.xcworkspace' -maxdepth 0 -exec open {} \;"
 alias occk="open ~/Library/Caches/org.carthage.CarthageKit"
 alias ocdb="open ~/Library/Caches/carthage"
+alias rmc="rm -rf ./Carthage"
 alias rmcck="rm -rf ~/Library/Caches/org.carthage.CarthageKit"
 alias rmcdb="rm -rf ~/Library/Caches/carthage"
+alias rmca="rmc;rmcck;rmcdb"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
