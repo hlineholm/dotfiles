@@ -77,6 +77,10 @@
 	# a.k.a. ‘delete merged’
 	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
+    # Remove submodules
+    dsub = !"git rm "$@"; rm -rf ".git/modules/$@"; git config -f ".git/config" --remove-section "submodule.$@" 2> /dev/null"
+    dsubf = !"rm -rf ".git/modules"; rm -rf ".gitmodules""
+
     # Copy name of branch to clipboard
     # cb = "!git branch | grep '^\*' | cut -d' ' -f2 | pbcopy"
 
