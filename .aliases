@@ -9,7 +9,7 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias al="cd ~/Repositories/github/hlineholm/dotfiles && code . && code .aliases && code .gitconfig && code .functions"
+alias al="cd ~/Repositories/github/hlineholm/dotfiles && code ."
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias g="git"
