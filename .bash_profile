@@ -50,4 +50,11 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # Select JAVA version
 # /usr/libexec/java_home -V
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
+export JAVA_11_HOME=$(/usr/libexec/java_home -v11)
+export JAVA_11_HOME=$(/usr/libexec/java_home -v13)
+alias java8='export JAVA_HOME=$JAVA_8_HOME'
+alias java11='export JAVA_HOME=$JAVA_11_HOME'
+alias java13='export JAVA_HOME=$JAVA_13_HOME'
+# default to Java 11
+java11
