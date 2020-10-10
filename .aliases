@@ -20,6 +20,7 @@ alias rph="cd ~/Repositories/github/hlineholm"
 alias rphs="cd ~//Repositories/github/hlineholm/sheet-transaction-updater/Sheets"
 alias rpm="cd ~/Repositories/bitbucket/mobile"
 alias rpmt="cd ~/Repositories/bitbucket/mobile/tools-ios/MobileDevice/iOS/Tools/main"
+alias rpv="cd ~/Repositories/github/varasto"
 
 alias bh="code ~/.bash_history"
 alias cbh="cat /dev/null > ~/.bash_history && history -c && exit"
