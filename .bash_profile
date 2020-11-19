@@ -1,5 +1,7 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+# Add `ruby/gems/2.7.0` to the `$PATH`
+export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.7.0/bin:$PATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
