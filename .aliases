@@ -9,18 +9,18 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias al="cd ~/Repositories/github/hlineholm/dotfiles && code ."
+alias al="cd ~/Repositories/GitHub/hlineholm/dotfiles && code ."
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias g="git"
 alias h="code ~/.bash_history"
 alias rp="cd ~/Repositories"
 alias rpf="cd ~/Repositories/bitbucket/as"
-alias rph="cd ~/Repositories/github/hlineholm"
+alias rph="cd ~/Repositories/GitHub/hlineholm"
 alias rphs="cd ~//Repositories/github/hlineholm/sheet-transaction-updater/Sheets"
 alias rpm="cd ~/Repositories/bitbucket/mobile"
 alias rpmt="cd ~/Repositories/bitbucket/mobile/tools-ios/MobileDevice/iOS/Tools/main"
-alias rpv="cd ~/Repositories/github/varasto"
+alias rpv="cd ~/Repositories/GitHub/varasto"
 
 alias bh="code ~/.bash_history"
 alias cbh="cat /dev/null > ~/.bash_history && history -c && exit"
