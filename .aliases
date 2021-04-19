@@ -31,6 +31,8 @@ alias rmc="rm -rf ./Carthage"
 alias rmcck="rm -rf ~/Library/Caches/org.carthage.CarthageKit"
 alias rmcdb="rm -rf ~/Library/Caches/carthage"
 alias rmca="rmc;rmcck;rmcdb"
+alias rmpf="rm -rf {Podfile.lock,Pods/Manifest.lock,Pods/Pods.xcodeproj}"
+alias rmpfi="rm -rf {Podfile.lock,Pods/Manifest.lock,Pods/Pods.xcodeproj};pod install"
 
 alias wsym="rm -rf Carthage/Integration/Products && mkdir -p Carthage/Integration/Products && ln -s \"$(pwd)/Carthage/Build/iOS\" Carthage/Integration/Products/Debug-iphoneos && ln -s \"$(pwd)/Carthage/Build/iOS\" Carthage/Integration/Products/Debug-iphonesimulator"
 
